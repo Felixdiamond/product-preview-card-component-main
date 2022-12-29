@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+
+
+body {
+    background-color: hsl(30, 38%, 92%);
+    font-size: 14px;
+}
+
+.card-title {
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    padding: 5px;
+}
+
+.main-text {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    font-size: 1.9rem;
+    width: 85%;
+}
+
+.card {
+    border: none;
+}
+
+.sub-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    color: hsl(228, 12%, 48%);
+}
+
+.prices {
+    display: flex;
+    padding-bottom: 0.5rem;
+}
+
+.price-main {
+    font-size: 1.9rem;
+    font-family: 'Fraunces', serif;
+    color: hsl(158, 36%, 37%);
+}
+
+.price-sub {
+    text-decoration: line-through;
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: small;
+}
+.btn {
+    padding: 10px 5px;
+    min-width: 100%;
+    background-color: hsl(158, 36%, 37%);
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    border: none;
+    transition: 0.5s ease-in-out !important;
+}
+.btn:hover {
+    background-color: hsl(212, 21%, 14%);
+    color: hsl(0, 0%, 100%);
+}
+.card-body {
+    padding-left: 2rem;
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .card {
+        width: 90%;
+        height: fit-content;
+    }
+    .card-title {
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        padding: 5px;
+        font-size: 15px;
+    }
+    .main-text {
+        font-family: 'Fraunces', serif;
+        font-weight: 700;
+        font-size: 1.8rem;
+        line-height: 2rem;
+    }
+    .sub-text {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        color: hsl(228, 12%, 48%);
+        font-size: 15px;
+    }
+    .btn {
+        padding: 15px 5px;
+    }
+}
+
